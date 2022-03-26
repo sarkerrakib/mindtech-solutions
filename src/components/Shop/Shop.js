@@ -33,9 +33,8 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div className="cart-container">
-                <Cart key={cart.id} cart={cart} setCart={setCart}></Cart>
-            </div>
+            
+            
         </div>
     );
 };

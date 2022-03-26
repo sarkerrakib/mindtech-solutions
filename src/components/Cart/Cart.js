@@ -27,11 +27,8 @@ const Cart = (props) => {
                     cart.map(sn => <Roundcart key={sn.id} sn={sn}></Roundcart>)
                 }
             </div>
-            <div>
-                <button onClick={khaboNa} >Choose one for me</button>
-                <button onClick={removeTotal}>Choose Again</button>
-
-            </div>
+            
+            
             <RsModal cart={cart} modalIsOpen={modalIsOpen} setIsOpen={setIsOpen}></RsModal>
             
         </div>
